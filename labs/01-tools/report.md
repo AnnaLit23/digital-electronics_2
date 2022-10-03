@@ -32,5 +32,6 @@ void setup()
 
 2. Scheme of Morse code application, i.e. connection of AVR device, LED, resistor, and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
-   ![image](https://user-images.githubusercontent.com/99733524/193670113-f91c6bb9-d71b-45cf-80a0-c36915037562.png)
+![image](https://user-images.githubusercontent.com/99733524/193671511-4ca4b8e2-c10f-4483-af47-22e947b4cb9f.png)
+
 
