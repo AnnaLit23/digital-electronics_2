@@ -19,7 +19,7 @@
    | :-- | :-: |
    | Ver. 1: Arduino-style | 480  |
    | Ver. 2: Registers | 182 |
-   | Ver. 3: Library functions |  |
+   | Ver. 3: Library functions | 182 |
 
 ### Traffic light
 
