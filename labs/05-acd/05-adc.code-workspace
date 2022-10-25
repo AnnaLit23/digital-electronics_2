@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "03-interrupts\\lab3-interrupts_timer"
+		},
+		{
+			"name": "lab4-lcd",
+			"path": "lab4-lcd"
+		},
+		{
+			"name": "05-adc",
+			"path": "..\\..\\..\\PlatformIO\\Projects\\05-adc"
+		}
+	],
+	"settings": {}
+}
