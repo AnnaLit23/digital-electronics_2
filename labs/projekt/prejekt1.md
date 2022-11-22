@@ -48,3 +48,5 @@ Insert a link to a short video with your practical implementation example (1-3 m
 
 1. Write your text here.
 2. ...
+
+https://www.youtube.com/watch?v=B6YEQj4d5WU
