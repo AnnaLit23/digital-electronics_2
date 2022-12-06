@@ -63,8 +63,11 @@ Obr. 2 - Schéma reálného zapojení
 ## Software description
 
 ![image](https://user-images.githubusercontent.com/99403646/205865422-d6dad741-c66c-4e6f-b598-7912b6b96adf.png)
+Obr. 3 - Blokové schema TINER1_OVF_vect, spustíme každých 262 ms ADC conversion
 
-![image](https://user-images.githubusercontent.com/99403646/205865529-51586952-727d-4822-bb06-3401c3559a8b.png)
+![image](https://user-images.githubusercontent.com/99733524/205872708-2917c64c-f421-428f-8444-b84f2e27d655.png)
+Obr. 4 - Blokové schema ADC_vect
+
 
 ## Video
 https://youtu.be/-JzXT4BKrfg
