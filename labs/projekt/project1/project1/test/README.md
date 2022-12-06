@@ -34,13 +34,13 @@ Application of analog joy-stick (2 ADC channels, 1 push button), rotary encoder,
 
 * GND to GND 
 * +5V to +5V
-* Vrx and Vry we connect to analog pins A0, A1 
+* VRx and VRy to analog pins A0, A1 
 
 ### Digilent PmodCLP LCD modul 
 
 * GND to GND 
 * VCC to +5V J2
-* pins 7,10 to digital pins 4, 7
+* pins 7 - 10 to digital pins 4 - 7 (v reálném zapojení)
 * RW to GND
 * Rs and En to digital pins 8 and 9
 
