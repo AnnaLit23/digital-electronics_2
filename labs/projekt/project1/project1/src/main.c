@@ -1,15 +1,4 @@
-/***********************************************************************
- * 
- * Use Analog-to-digital conversion to read push buttons on LCD keypad
- * shield and display it on LCD screen.
- * 
- * ATmega328P (Arduino Uno), 16 MHz, PlatformIO
- *
- * Copyright (c) 2018 Tomas Fryza
- * Dept. of Radio Electronics, Brno University of Technology, Czechia
- * This work is licensed under the terms of the MIT license.
- * 
- **********************************************************************/
+
 
 
 /* Includes ----------------------------------------------------------*/
@@ -129,11 +118,6 @@ ISR(ADC_vect)
     lcd_puts(string);
 
 
-    //itoa (value, string, 16);
-    //lcd_gotoxy(13,0);
-    //lcd_puts("   ");
-    //lcd_gotoxy(13,0);
-    //lcd_puts(string);
     
     lcd_gotoxy(10, 0);
     if (x >530 )
@@ -152,12 +136,7 @@ ISR(ADC_vect)
       lcd_puts("up   ");
     else if (y < 100)
       lcd_puts("down ");
-    //else if (value >330)
-      //lcd_puts("left");
-    //else if (value >175)
-      //lcd_puts("up");
-    //else if (value >50)
-      //lcd_puts("right");
+
       if (position == 0)
       position = 1;
       else
