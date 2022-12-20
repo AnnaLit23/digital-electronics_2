@@ -43,7 +43,7 @@ int main(void)
     GPIO_mode_output(&DDRB, servo2);        // 2. servo motor
     GPIO_mode_input_pullup(&DDRB,BUTTON1);  // set Button with enabled pull-up resistor
 
-    // Set 10. waveform generation mode (1010)
+    // Set generation mode 
     TCCR1A |= (1 << WGM11);                  
     TCCR1B |= (1 << WGM13);
 
