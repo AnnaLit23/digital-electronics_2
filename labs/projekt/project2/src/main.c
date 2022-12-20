@@ -93,7 +93,7 @@ ISR(TIMER0_OVF_vect)
     /* ------------- First servo motor  ------------------------------*/
     if (RUN == 0)                                                      
     {
-        // Direction
+        // Direction for servo 1
         if (servo1_position == ANGLE_180)       // Maximum value
             {
                 servo1_direction = 1;           // Clockwise direction
@@ -102,7 +102,7 @@ ISR(TIMER0_OVF_vect)
             {
                 servo1_direction = 0;           // Counterclockwise direction
             }
-        // Motion
+        // Motion for servo 1
         if (servo1_direction == 0)
         {
             servo1_position += 4;               // Increment variable 
@@ -113,7 +113,7 @@ ISR(TIMER0_OVF_vect)
         }
         OCR1A = servo1_position;                // Put value from variable into arduino register
 
-         // Direction
+         // Direction for servo 2
         if (servo2_position == ANGLE_180)       // Maximum value
         {
             servo2_direction = 1;               // Clockwise direction
@@ -122,7 +122,7 @@ ISR(TIMER0_OVF_vect)
         {
             servo2_direction = 0;               // Counterclockwise direction
         }
-        // Motion
+        // Motion for servo 2
         if (servo2_direction == 0)
         {
             servo2_position += 2;               // Increment variable 
@@ -133,7 +133,7 @@ ISR(TIMER0_OVF_vect)
         }
         OCR1B = servo2_position;                // Put value from variable into arduino register
         }
-    /* ------------- Second servo motor  ------------------------------*/    
+    
 
 }
 /**********************************************************************
