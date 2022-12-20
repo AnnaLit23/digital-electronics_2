@@ -33,8 +33,8 @@ Links:
   include: [timer.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/include/timer.h)
    
   lib - gpio: 
-   [gpio.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.h)
-   ,[gpio.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.c)
+   [gpio.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.h),
+   [gpio.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.c)
    
   src: [main.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/src/main.c)
    
