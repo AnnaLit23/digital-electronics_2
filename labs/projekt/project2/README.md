@@ -8,7 +8,33 @@
 
 ## Hardware description
 
-Insert descriptive text and schematic(s) of your implementation.
+![image](https://user-images.githubusercontent.com/99733524/208757709-5d0bda7b-2c37-4e3d-a44a-6fef050c36b1.png)
+
+Picture 1 Wiring diagram
+
+### First Servo motor SG90
+
+* GND to GND
+
+* V+ to +5V
+
+* SIG to digital pin 9
+
+### Second Servo motor SG90
+
+* GND to GND
+
+* V+ to +5V
+
+* SIG to digital pin 10
+
+### Button
+
+* GND to GND 
+
+* +5V to +5V
+
+*SW to pin 8 
 
 ## Software description
 ### Structure
@@ -43,27 +69,29 @@ Links:
   
   ![image](https://user-images.githubusercontent.com/99733524/208750713-e27dd5c7-2236-4006-bbf3-234f3c720e3c.png)
   
-  Flowchat of main
+  Picture 2 Flowchat of main
   
   ![image](https://user-images.githubusercontent.com/99733524/208750954-d26ceec4-5bff-4905-aae5-1c5c38c64a8b.png)
 
-  Flowchat of TIMER1_ovf_vect (moving Servo Motors)
+  Picture 3 Flowchat of TIMER1_ovf_vect (moving Servo Motors)
   
   In TIMER1_ovf_vect we set the PWM signal generation so that the SG90 Servo Motors move simultaneously. The 10th mod is used under the technical sheet.
    
   ![image](https://user-images.githubusercontent.com/99733524/208751035-0f2253c4-6ebb-471b-89ce-393cad97ad76.png)
   
-  Flowchat of PCINTO_vect (switching the Button)
+  Picture 4 Flowchat of PCINTO_vect (switching the Button)
   
   PCINT0_vect determines whether the motors should move ( we are change the value of RUN, depending on the button pressed)
 
 
 ## Video
 
-Insert a link to a short video with your practical implementation example (1-3 minutes, e.g. on YouTube).
+https://youtube.com/shorts/Sxfhcp9AFbQ?feature=share
 
 ## References
 
 1.  [doc. Ing. Tomáš Frýza, Ph.D "digital-electronics-2"](https://github.com/tomas-fryza/digital-electronics-2)
-2. ...
-3
+
+2. https://automaticaddison.com/how-to-control-multiple-servo-motors-using-arduino/
+
+3. https://how2electronics.com/how-to-control-multiple-servo-motors-with-arduino/
