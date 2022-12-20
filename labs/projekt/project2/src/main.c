@@ -138,7 +138,7 @@ ISR(TIMER0_OVF_vect)
 }
 /**********************************************************************
  * Function: Pin PB0 change interrupt
- * Purpose:  Defines if the first or second servo motor should move
+ * Purpose:  Determines whether the motors should move.
  **********************************************************************/
 
 ISR(PCINT0_vect)
