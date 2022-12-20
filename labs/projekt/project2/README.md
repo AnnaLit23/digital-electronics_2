@@ -29,6 +29,7 @@ Insert descriptive text and schematic(s) of your implementation.
    ```
    
 Links:
+
    [timer.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/include/timer.h)
    
    [gpio.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.h)
