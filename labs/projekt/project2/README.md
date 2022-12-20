@@ -11,7 +11,7 @@
 Insert descriptive text and schematic(s) of your implementation.
 
 ## Software description
-### GitHub repository structure
+### Structure
 
    ```c
    YOUR_PROJECT        // PlatfomIO project
