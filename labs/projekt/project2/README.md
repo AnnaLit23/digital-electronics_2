@@ -37,7 +37,12 @@ Links:
    [gpio.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.c)
    
   src: [main.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/src/main.c)
+  
+  In gpio we are setting pins and reading their value. Timer we are using for PWM
    
+  In TIMER1_ovf_vect we set the PWM signal generation so that the SG90 Servo Motors move simultaneously. The 10th mod is used under the technical sheet.
+   
+   PCINT0_vect determines whether the motors should move ( we are change the value of RUN, depending on the button pressed)
 Put flowchats of your algorithm(s). Write descriptive text of your libraries and source files. Put direct links to these files in `src` or `lib` folders.
 
 ## Video
