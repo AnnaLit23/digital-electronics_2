@@ -96,42 +96,42 @@ ISR(TIMER0_OVF_vect)
         // Direction for servo 1
         if (servo1_position == ANGLE_180)       // Maximum value
             {
-                servo1_direction = 1;           // Clockwise direction
+                servo1_direction = 1;           
             }
         else if (servo1_position == ANGLE_ZERO) // Minimum value
             {
-                servo1_direction = 0;           // Counterclockwise direction
+                servo1_direction = 0;           
             }
         // Motion for servo 1
         if (servo1_direction == 0)
         {
-            servo1_position += 4;               // Increment variable 
+            servo1_position += 4;               
         }
         if (servo1_direction == 1)
         {
-            servo1_position -= 4;               // Decrement variable  
+            servo1_position -= 4;               
         }
-        OCR1A = servo1_position;                // Put value from variable into arduino register
+        OCR1A = servo1_position;                // Put value to arduino register
 
          // Direction for servo 2
         if (servo2_position == ANGLE_180)       // Maximum value
         {
-            servo2_direction = 1;               // Clockwise direction
+            servo2_direction = 1;               
         }
         else if (servo2_position == ANGLE_ZERO) // Minimum value
         {
-            servo2_direction = 0;               // Counterclockwise direction
+            servo2_direction = 0;               
         }
         // Motion for servo 2
         if (servo2_direction == 0)
         {
-            servo2_position += 2;               // Increment variable 
+            servo2_position += 2;               
         }
         if (servo2_direction == 1)
         {
-            servo2_position -= 2;               // Decrement variable   
+            servo2_position -= 2;               
         }
-        OCR1B = servo2_position;                // Put value from variable into arduino register
+        OCR1B = servo2_position;                // Put value to arduino register
         }
     
 
