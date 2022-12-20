@@ -11,7 +11,7 @@
 Insert descriptive text and schematic(s) of your implementation.
 
 ## Software description
-## Recommended GitHub repository structure
+# GitHub repository structure
 
    ```c
    YOUR_PROJECT        // PlatfomIO project
@@ -27,7 +27,8 @@ Insert descriptive text and schematic(s) of your implementation.
    ├── platformio.ini  // Project Configuration File
    └── README.md       // Report of this project
    
-   Links:
+   
+Links:
    [timer.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/include/timer.h)
    [gpio.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.h)
    [gpio.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.c)
