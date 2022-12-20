@@ -34,7 +34,7 @@ Picture 1 Wiring diagram
 
 * +5V to +5V
 
-* SW to pin 8 
+* SW to digital pin 8 
 
 ## Software description
 ### Structure
