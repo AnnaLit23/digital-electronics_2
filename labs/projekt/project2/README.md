@@ -30,9 +30,13 @@ Insert descriptive text and schematic(s) of your implementation.
    
 Links:
    [timer.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/include/timer.h)
+   
    [gpio.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.h)
+   
    [gpio.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.c)
+   
    [main.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/src/main.c)
+   
 Put flowchats of your algorithm(s). Write descriptive text of your libraries and source files. Put direct links to these files in `src` or `lib` folders.
 
 ## Video
@@ -41,5 +45,5 @@ Insert a link to a short video with your practical implementation example (1-3 m
 
 ## References
 
-1. Write your text here.
+1.  [doc. Ing. Tomáš Frýza, Ph.D "digital-electronics-2"](https://github.com/tomas-fryza/digital-electronics-2)
 2. ...
