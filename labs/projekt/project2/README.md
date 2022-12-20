@@ -14,7 +14,7 @@ Insert descriptive text and schematic(s) of your implementation.
 ### Structure
 
    ```c
-   YOUR_PROJECT        // PlatfomIO project
+   project2        // PlatfomIO project
    ├── include         // Included files
    │   └── timer.h
    ├── lib             // Libraries
@@ -48,3 +48,4 @@ Insert a link to a short video with your practical implementation example (1-3 m
 
 1.  [doc. Ing. Tomáš Frýza, Ph.D "digital-electronics-2"](https://github.com/tomas-fryza/digital-electronics-2)
 2. ...
+3
