@@ -30,13 +30,14 @@ Insert descriptive text and schematic(s) of your implementation.
    
 Links:
 
-   [timer.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/include/timer.h)
+  include: [timer.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/include/timer.h)
    
+  lib - gpio: 
    [gpio.h](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.h)
    
    [gpio.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/lib/gpio/gpio.c)
    
-   [main.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/src/main.c)
+  src: [main.c](https://github.com/AnnaLit23/digital-electronics_2/blob/main/labs/projekt/project2/src/main.c)
    
 Put flowchats of your algorithm(s). Write descriptive text of your libraries and source files. Put direct links to these files in `src` or `lib` folders.
 
